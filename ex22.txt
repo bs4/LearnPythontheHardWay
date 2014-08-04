@@ -1,0 +1,100 @@
+# Ex22 Review of words & symbols and their definitions
+
+# = aka octothorpe, python ignores text after this
+print = prints everything in " "
+    -also prints variables not in " "
+    -can print 1 output line from 2 input lines using comma and typing print again
+variable = allows you to set a word or phrase equal to something longer or more complex
+    - then you can just type the variable everytime you want the value later in the script
+    < = less than, returns True/False w/ print outside or w/out " "
+> = greater than, 
+<= and >= also return True/False
+% = modulus, say "X divided by Y, w/ J remaining"
+PEMDAS = order of operations, (), exponents, *, /, +, -
+_ = underscore, puts imaginary space between words
+= = assigns value on the right to variable on left
+== = tests if 2 things have same value
+floating point number = a number with a decimal
+    - float() makes whatever is in () a floating point number
+string = something in " " you might deliver to a human
+    - can be together with just a "+" sign, ex- after "print"
+formatters = python takes variable on right to replace %s
+%r = formatter, returns exactly what is written, for debugging, "representation"
+%s = formatter, for displaying to users
+%d = for displaying numbers
+round() = round whatever floating point number is in ()
+\n = newlines, technically "escape linefeed"
+""" = like "print", but can use additional lines, prints until closed with """
+    -can also use ''', it works same way
+\ = backslash, can initiate an escape sequence
+    - you can \ ' and " in strings so python knows not to close the string
+\t = horizontal tab
+raw_input = asks for input from user in command line
+input() = tries to convert user entry into code, security problems, avoid
+pydoc = python -m pydoc __topic__, input in cmd line, pulls up help files
+script = another name for your .py files
+import = used to import modules
+modules = features you can import to make python do more, ex.- the sys module
+    - os.path is another module, exist is a feature of os.path
+    - AKA- package
+    - you can get features from modules/packages, ex.- 
+argv = argument variable, holds argument you pass to python script when run
+    - your script unpacks argv, all arguments get assigned to variables
+    - # of variables given on cmd line must match # variables expected in script
+    - idea of giving arguments on cmd line is AKA running the script with parameters
+    - similar to raw_input, user gives input, diff = where input is entered
+hard code = putting a string right into our script
+    - info should come a user instead
+open() = opens requested file, takes a parameter and returns a value
+    - value returned can be set to be a value of a user defined variable
+    - open(filename, 'x') where x can be 'r' read, 'w' write, 'a' append, 'r' is default
+    - add + modifier to r/w/a = opens file in both read & write mode
+    - depending on character (r/w/a) use, position the file in different ways
+__txt__.read() = calling function on user defined text file
+    - ex.- txt.read() is like saying txt.readtext, "Do your read command w/no parameters!"
+command/function/method = takes a file (or variable), and parameter 
+    - you can give a file a command/etc by typing filename, a .(period,dot), name of the command, and parameters
+"file object" = created from open() command
+    - you can move around inside "file object" and read them, but the file is not the contents
+close() = closes the file
+read() = reads the contents of the file, you can assign the result to a variable
+readline() = reads just one line of a text file
+    - inside readline() is code that scans each byte of the file until it
+    -- finds a \n character, then stops reading the file and returns what
+    -- it found so far. The file is responsible for maintaining the current 
+    -- position in the file after each readline() call, so that it keeps reading each line 
+truncate() = empties the file, wathc out if you care about the file
+write() = writes stuff to the file
+from os.path import exists = 
+    - returns True if path refers to existing path,
+    - returns False for broken symbolic links
+    - may return False if permission is not granted to execute os.stat() on requested file
+    -- even if path physically exists
+    - ex.- ' print "Does the output file exist? %r" % exists(x), see above for T/F
+combo* x = open(filename) , y = x.read() combo'ed = open(filename).read()
+len() = returns length in bytes of file contained in (), uses %d in string
+echo = typed into cmd line, can create a file
+    - ex.- echo "This is a test file." > test.txt
+cat = prints a file to the screen in cmd line
+    - old command that "con*cat*enates" files together
+function = 
+    - created by using word 'def' in python
+    - name pieces of code, just like variables name strings and numbers
+    - take arguments the way scripts take argv
++= = ex.- x = x + 1 becomes x += 1
+    - or current_line = current_line + 1 becomes current_line += 1
+seek() = 
+    - deals in bytes, not lines
+return = gives a value to a function
+    - a variable can be set to this value
+    - in a sense the variable used = the output from the function 
+
+    
+
+
+
+
+
+
+
+
