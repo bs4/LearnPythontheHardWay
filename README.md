@@ -13,4 +13,4 @@ For the study questions and drills I will use drill in the file name (example: e
 The drill files are where I make changes to the original or use # to make notes.
 Sometimes I'll go beyond what I learned in a particular lesson and there will be multiple drill files.
 
-I'll also use test in some form or another, but still with the core exercise naming convention.
+I'll also use "test" in some file names
