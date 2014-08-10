@@ -1,0 +1,47 @@
+not
+or
+and
+not(or)
+not(and)
+!=
+==
+
+
+not F = T
+not T = F
+
+
+T or F = T
+T or T = T
+F or T = T
+F or F = F
+
+
+T and F = F
+T and T = T
+F and T = F
+F and F = F
+
+
+not(T or F) = F
+not(T or T) = F
+not(F or T) = F
+not(F or F) = T
+
+
+not(T and F) = T
+not(T and T) = F
+not(F and T) = T
+not(F and F) = T
+
+
+T != F = T
+T != T = F
+F != T = T
+F != F = F
+
+
+T == F = F
+T == T = T
+F == T = F
+F == F = T
