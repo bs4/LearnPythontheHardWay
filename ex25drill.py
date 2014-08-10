@@ -11,6 +11,7 @@ def break_words(stuff):
 def sort_words(words):
     """Sorts the words."""
 # The below line uses sort function on the argument & returns result
+## Here, our sentence (split by above function) is returned in alpha order
     return sorted(words)
     
 def print_first_word(words):
@@ -30,19 +31,23 @@ def print_last_word(words):
 ## in the list, so it returns last word
     word = words.pop(-1)
     print word
-    
+
+# The below function combines the break_words and sort_words functions in 1
 def sort_sentence(sentence):
     """Takes in a full sentence and returns the sorted words."""
-# The below line 
     words = break_words(sentence)
     return sort_words(words)
     
-
+# The below function combines break_words, print_first_words, and 
+## print_last_words functions into 1
+# The output in Python will print the first and last words of the split
+## sentence because there is a "print" command in both print_ functions 
 def print_first_and_last(sentence):
     """Prints the first and last words of the sentence."""
     words = break_words(sentence)
     print_first_word(words)
     print_last_word(words)
+
     
 def print_first_and_last_sorted(sentence):
     """Sorts the words then prints the first and last one."""
