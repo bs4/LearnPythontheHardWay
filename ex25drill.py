@@ -48,7 +48,11 @@ def print_first_and_last(sentence):
     print_first_word(words)
     print_last_word(words)
 
-    
+# The below function combines sort_sentence, print_first_ and print_last_
+## functions into 1, also note that sort_sentence is already 2 functions
+## combined, yeesh, getting deep
+# The ouput in Python will print the first and last words of the sorted
+## split sentence because of "print" commmand in both print_ functions
 def print_first_and_last_sorted(sentence):
     """Sorts the words then prints the first and last one."""
     words = sort_sentence(sentence)
