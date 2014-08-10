@@ -23,16 +23,16 @@ F and T = F
 F and F = F
 
 
-not(T or F) = F
-not(T or T) = F
-not(F or T) = F
-not(F or F) = T
+not (T or F) = F
+not (T or T) = F
+not (F or T) = F
+not (F or F) = T
 
 
-not(T and F) = T
-not(T and T) = F
-not(F and T) = T
-not(F and F) = T
+not (T and F) = T
+not (T and T) = F
+not (F and T) = T
+not (F and F) = T
 
 
 T != F = T
