@@ -1,0 +1,66 @@
+True and True is True #*
+False and True is False #*
+1 == 1 and 2 == 1 is False #*
+"test" == "test" is True #*
+1 == 1 or 2 != 1 is True #*
+True and 1 == 1 is True #*
+False and 0 != 0 is False #*
+True or 1 == 1 is True #*
+"test" == "testing" is False #*
+1 != 0 and 2 == 1 is False #*
+"test" != "testing" is True #*
+"test" == 1 is False #*
+not (True and False) is True #*
+not (1 == 1 and 0 != 1) is False #*
+not (10 == 1 or 1000 == 1000) is False #*
+not (1 != 10 or 3 == 4) is False #*
+not ("testing" == "testing" and "Zed" == "Cool Guy") is True #*
+1 == 1 and (not ("testing" == 1 or 1 == 0)) is True #*
+"chunky" == "bacon" and (not (3 == 4 or 3 == 3)) is False #*
+3 == 3 and (not ("testing" == "testing" or "Python" == "Fun")) is False #*
+
+
+Other "equality operators" I found online:
+
+<>  is  equal or not
+        checks if value of two operands is equal or not, if not
+        then condition = True
+        NOTE **  similar to !=  **
+        NOTE NOTE ***  DO NOT USE ***  use != instead
+        
+<  is  less than
+        checks if value of left operand is less than value of right, if yes
+        then returns True 
+        
+>  is  greater than
+        checks if value of left operand is greater than value of right, if yes
+        then returns True 
+        
+<=  is  less-than equal
+
+>=  is  greater-than equal
+
+
+Plus I happened across these:
+
+**  is  exponentiation (raise to the power)
+
+% modulus  is  divides left hand operand by right hand, and returns remainder
+
+//  is  Floor Division, division of operands, result is quotient in which
+        the digits after the decimal are removed
+        
+-=, *=, /=, %=, **=, //=  is  just like how += behaves
+        ex "x = x - y" is "x -= y"
+        ex "a = a ** b" is "a **= b"
+        
+in  is  evaluates to True if finds variables in specified sequence,
+        False otherwise
+        ex. x is y, here IS results in 1 if id(x) equals id(y)
+
+is not  is  evaluates to False if variables on either side of operator point
+            to same object
+            True otherwise
+            ex. x is not y, here IS NOT results in 1 if id(x) is
+            not equal to id(y)
+            
