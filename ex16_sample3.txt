@@ -1,0 +1,12 @@
+this is appending an already created do
+i wanted to see if it will add 2 empty lines
+at the end, since i used \n\n in the target.write string
+
+
+and now i am adding more
+i want to see if the appendage...
+errr, appending will recognize the 2 \n i used
+checking again
+....
+this is crazy
+

@@ -1,0 +1,3 @@
+First line
+Second line
+Third line, note the 4th line is blank as saved from N++
