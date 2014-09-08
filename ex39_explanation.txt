@@ -1,0 +1,45 @@
+Exercise 39 explained - Learn Python the Hard Way
+
+aMap is the name of the hashmap which is a list of buckets
+for our example, there are 256 buckets in aMap
+
+Explanation:
+Look at 'new' function in hashmap.py
+use your Python and type in function
+>>> aMap = []
+>>> for i in range(0, 256):
+...     aMap.append([])     # indent here
+...                         # just hit enter here
+>>> aMap
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+ [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+ [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+ [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+ [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+ [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+ [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+ [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+ [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+
+See! 256 "buckets" or lists now contained in aMap
+ 
+ 
+ 
+ 
+ 
+Each of the "bucket" lists is empty, until we add (key, value) pairs to
+the data structure (list) and the "buckets" fill with "slots"
+
+Each of these "slots" contains a (key, value) pair 
+
+
+
+'hash_key' function
+test
+>>> hash('CA') % len(aMap)
+74
+
+
+
+'get_buckets' function
+test
