@@ -1,0 +1,121 @@
+# Exercise 37
+
+
+~~~Keywords~~~
+
+and -- logical and, bool True and False, etc
+
+as -- part of with-as statement, see example in ex37test.py
+with function('filename') as 'variable':
+    'do something'
+    
+assert -- assert something is true, if not raises error, used by programmers
+for programmers to find bugs, not for finished product or user of program,
+example  assert False, "Error!"  , see also example in ex37test.py
+
+break -- stop this loop right now, breaks out of smallest enclosing
+'for' or 'while' loop, example  while True: break  ,
+see example in ex37test.py 
+
+class -- define a class, http://www.sthurlow.com/python/lesson08/
+this is a whole lesson in itself, see referenced link...
+allows multiple functions and variables to be grouped together for future use
+
+continue -- continues on with loop if statement is True, works for and
+while loops, example  while True: continue  , see example in ex37test.py
+
+def -- define a function
+
+del -- delete from dictionary, X is variable (maybe a list), Y is value removed
+from that list, example  del X[Y]  , see example in ex37test.py
+
+elif -- part of if/elif/else, performs task if the 'if' is False
+
+else -- if: x; elif: y; else: j
+
+except -- catch an exception in a block of code, works together with 'try'
+
+exec -- handles statements, side effects can result: variable value changes,
+an object of one of it's attributes can be changed, exec has no return value
+http://joequery.me/code/python-builtin-functions/
+
+finally -- used to make sure cleanup actions always take place, even
+if an exception is raised, try/else/except/finally (not sure of order)
+https://www.inkling.com/read/learning-python-mark-lutz-4th/chapter-33/the-tryfinally-statement
+
+for -- for loops run a block of code a fixed number of times, loop over a
+collection of things
+https://wiki.python.org/moin/ForLoop
+
+from -- closely tied to import, method getting modules into a script, importing
+specific parts of a module, example:
+import ex36
+ex36.sf_hitch(car, people, hitch, range, miles)
+https://docs.python.org/2/tutorial/modules.html
+
+global -- declare you want a global variable, example: global x
+
+if -- see "elif" and "else" above
+
+import -- import a module into this one to use, example: import ex36
+
+in -- part of for-loops, also can be a test of x in y
+
+is -- like using == to test equality, example: 1 is 1 == True
+
+lambda -- create a short anonymous func, tool for building a func like def,
+good for one-off functions, aka anonymous or unbound function
+example:
+def square_root(x): return math.sqrt(x)
+*or*
+square_root = lambda x: math.sqrt(x)
+http://pythonconquerstheuniverse.wordpress.com/2011/08/29/lambda_tutorial/
+http://www.blog.pythonlibrary.org/2010/07/19/the-python-lambda/
+
+not -- Logical not, example: not True == False
+
+or -- Logical or, example: True or False == True
+
+pass -- placeholder, "this block is empty", example def empty(): pass
+
+print -- print this string
+
+raise -- raise an exception when things go wrong, ex: raise ValueError("No")
+
+return -- exit function with a return value, example:
+defx():
+    return y 
+    
+try -- 'try' this block and if exception go to 'except'
+
+while -- loops code block until condition is met...can go on forever
+
+with -- with an expression as a variable do
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
